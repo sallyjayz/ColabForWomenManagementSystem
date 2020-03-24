@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ColabForWomen</string>
+    <string name="new_student">NEW STUDENT</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="course">Track</string>
+    <string name="cohort">Cohort</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="new_cohort">ADD COHORT</string>
+    <string name="new_course">ADD TRACK</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="delete">delete</string>
+</resources>

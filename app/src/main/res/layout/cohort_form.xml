@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/cohortLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/eightdp"
+        android:layout_marginTop="@dimen/thirtytwodp"
+        android:layout_marginEnd="@dimen/eightdp"
+        android:text="@string/new_cohort"
+        android:textSize="@dimen/thirtytwosp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cohort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/eightdp"
+        android:layout_marginTop="@dimen/thirtytwodp"
+        android:layout_marginEnd="@dimen/eightdp"
+        android:hint="@string/cohort"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cohortLabel">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cohort1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/eightdp"
+        android:layout_marginTop="@dimen/sixteendp"
+        android:hint="@string/start_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cohort">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/startDate1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/endDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sixteendp"
+        android:layout_marginEnd="@dimen/eightdp"
+        android:hint="@string/end_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cohort">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/endDate1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/eightdp"
+        android:layout_marginTop="@dimen/thirtytwodp"
+        android:layout_marginEnd="@dimen/eightdp"
+        android:paddingTop="@dimen/sixteendp"
+        android:paddingBottom="@dimen/sixteendp"
+        android:paddingStart="@dimen/eightdp"
+        android:paddingEnd="@dimen/eightdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startDate" />
+
+<!--    <Button-->
+
+<!--        android:id="@+id/updateButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/thirtytwodp"-->
+<!--        android:paddingTop="@dimen/sixteendp"-->
+<!--        android:paddingBottom="@dimen/sixteendp"-->
+<!--        android:paddingStart="@dimen/eightdp"-->
+<!--        android:paddingEnd="@dimen/eightdp"-->
+<!--        android:text="@string/update"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/saveButton" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
